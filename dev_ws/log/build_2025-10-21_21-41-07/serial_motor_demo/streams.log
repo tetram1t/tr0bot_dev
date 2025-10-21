@@ -1,0 +1,43 @@
+[3.794s] Invoking command in '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs PYTHONPATH=/home/tetramit/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/tetramit/dev_ws/build/serial_motor_demo/build install --record /home/tetramit/dev_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[5.129s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.129s]   warnings.warn(
+[5.219s] running egg_info
+[5.231s] creating ../../../build/serial_motor_demo/serial_motor_demo.egg-info
+[5.231s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[5.233s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[5.233s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[5.240s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[5.241s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[5.241s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[5.257s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[5.264s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[5.266s] running build
+[5.266s] running build_py
+[5.266s] creating /home/tetramit/dev_ws/build/serial_motor_demo/build
+[5.267s] creating /home/tetramit/dev_ws/build/serial_motor_demo/build/lib
+[5.267s] creating /home/tetramit/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[5.267s] copying serial_motor_demo/gui.py -> /home/tetramit/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[5.269s] copying serial_motor_demo/__init__.py -> /home/tetramit/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[5.269s] copying serial_motor_demo/driver.py -> /home/tetramit/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[5.270s] running install
+[5.275s] running install_lib
+[5.275s] creating /home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[5.278s] copying /home/tetramit/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[5.278s] copying /home/tetramit/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[5.278s] copying /home/tetramit/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[5.279s] byte-compiling /home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/gui.py to gui.cpython-310.pyc
+[5.288s] byte-compiling /home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/__init__.py to __init__.cpython-310.pyc
+[5.288s] byte-compiling /home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/driver.py to driver.cpython-310.pyc
+[5.293s] running install_data
+[5.293s] creating /home/tetramit/dev_ws/install/serial_motor_demo/share/ament_index
+[5.293s] creating /home/tetramit/dev_ws/install/serial_motor_demo/share/ament_index/resource_index
+[5.296s] creating /home/tetramit/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[5.296s] copying resource/serial_motor_demo -> /home/tetramit/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[5.296s] copying package.xml -> /home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo
+[5.296s] running install_egg_info
+[5.301s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[5.304s] running install_scripts
+[5.375s] Installing driver script to /home/tetramit/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.375s] Installing gui script to /home/tetramit/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.375s] writing list of installed files to '/home/tetramit/dev_ws/build/serial_motor_demo/install.log'
+[5.562s] Invoked command in '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs PYTHONPATH=/home/tetramit/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/tetramit/dev_ws/build/serial_motor_demo/build install --record /home/tetramit/dev_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data

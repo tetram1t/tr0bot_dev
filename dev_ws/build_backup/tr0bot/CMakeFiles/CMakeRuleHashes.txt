@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+3971a61fdf09fc0a21f464127b5b5ce2 CMakeFiles/tr0bot_uninstall

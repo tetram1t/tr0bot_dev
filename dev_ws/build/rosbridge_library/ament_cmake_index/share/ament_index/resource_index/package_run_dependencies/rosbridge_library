@@ -1,0 +1,1 @@
+python3-bson;python3-numpy;python3-pil;python3-ujson;rcl_interfaces;rclpy;action_msgs;ament_cmake_mypy;builtin_interfaces;control_msgs;diagnostic_msgs;example_interfaces;geometry_msgs;nav_msgs;rosbridge_test_msgs;sensor_msgs;std_msgs;std_srvs;stereo_msgs;tf2_msgs;trajectory_msgs;visualization_msgs

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0d49dce1f1e34d0c4449.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "serial_motor_demo_msgs__py",
+					"jsonFile" : "directory-serial_motor_demo_msgs__py-e6c648783ac9f3abcbbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tetramit/dev_ws/build/serial_motor_demo_msgs/serial_motor_demo_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "serial_motor_demo_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_serial_motor_demo_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_serial_motor_demo_msgs_egg-5306af445c52cc2c68d2.json",
+					"name" : "ament_cmake_python_build_serial_motor_demo_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_serial_motor_demo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_serial_motor_demo_msgs-66c7fc67ebc011193f90.json",
+					"name" : "ament_cmake_python_copy_serial_motor_demo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs-9645d283eccd674e9411.json",
+					"name" : "serial_motor_demo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__cpp-b2c5b04d7fc958f243f1.json",
+					"name" : "serial_motor_demo_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "serial_motor_demo_msgs__py::@593108ce96a6b0e1e25b",
+					"jsonFile" : "target-serial_motor_demo_msgs__py-82734506f9925cb537ed.json",
+					"name" : "serial_motor_demo_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_generator_c-2e4952e81e940ae7ac2b.json",
+					"name" : "serial_motor_demo_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_generator_py-ce1228fde073f36ddfbc.json",
+					"name" : "serial_motor_demo_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_c-766a52689766d5654828.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_c__pyext-a30ca82b81c8606efa7f.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_cpp-15d7b24eddc2cff6a982.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c-77d91ea7b99d63b341af.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext-a094e02eb2ecba6b3a94.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp-b0156d53a56fe793f207.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_introspection_c-b6fe2c0b360512868e9d.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext-94dfd91e5d2d3391c248.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp-6971c0eeac8a39ca52e0.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs_uninstall-21c29acea56aadf3827a.json",
+					"name" : "serial_motor_demo_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c19bd17f23992f8d7ab8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tetramit/dev_ws/build/serial_motor_demo_msgs",
+		"source" : "/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e4129a5f606f63a6a5b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rosapi_msgs__py",
+					"jsonFile" : "directory-rosapi_msgs__py-e84f3e5910d4b0163118.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tetramit/dev_ws/build/rosapi_msgs/rosapi_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rosapi_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rosapi_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rosapi_msgs_egg-8958d62ac8b45c2e09a9.json",
+					"name" : "ament_cmake_python_build_rosapi_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rosapi_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rosapi_msgs-bc38f33725cb1a50ba79.json",
+					"name" : "ament_cmake_python_copy_rosapi_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs-99c306f75293b13ead67.json",
+					"name" : "rosapi_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__cpp-6127e48c3dc1790804e5.json",
+					"name" : "rosapi_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rosapi_msgs__py::@e4c3ddceed1bdd60f464",
+					"jsonFile" : "target-rosapi_msgs__py-03a084b8e26f4d33d860.json",
+					"name" : "rosapi_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_generator_c-fc964be83838bec54fce.json",
+					"name" : "rosapi_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_generator_py-58c1047c29a41e8cddaa.json",
+					"name" : "rosapi_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_typesupport_c-0348262c71999359bcfd.json",
+					"name" : "rosapi_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_typesupport_c__pyext-1027236d383257b2df83.json",
+					"name" : "rosapi_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_typesupport_cpp-6e5a16e883d5b1e9f930.json",
+					"name" : "rosapi_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_typesupport_fastrtps_c-ba81e61349913527201d.json",
+					"name" : "rosapi_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext-85106f8015a1a4444da9.json",
+					"name" : "rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_typesupport_fastrtps_cpp-1274240d1ce10df87bc9.json",
+					"name" : "rosapi_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_typesupport_introspection_c-aad0d8f97f7a635d7d13.json",
+					"name" : "rosapi_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_typesupport_introspection_c__pyext-bce4b719a9dc28bf9e90.json",
+					"name" : "rosapi_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs__rosidl_typesupport_introspection_cpp-50d1453707988514abb3.json",
+					"name" : "rosapi_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosapi_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosapi_msgs_uninstall-87213481c0e64d1c0a2f.json",
+					"name" : "rosapi_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0ec223c6ae5fa03befa7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tetramit/dev_ws/build/rosapi_msgs",
+		"source" : "/home/tetramit/dev_ws/src/rosbridge_suite/rosapi_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

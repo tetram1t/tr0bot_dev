@@ -1,0 +1,38 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    # Определение контроллеров (имён контроллеров как ключей не требуется здесь,
+    # но оставляем структуру для совместимости)
+    diff_cont:
+      type: diff_drive_controller/DiffDriveController
+
+    joint_broad:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+# Параметры контроллера дифф-двига
+diff_cont:
+  ros__parameters:
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+    wheel_separation: 0.35
+    wheel_radius: 0.05
+    # Ковариации увеличены, чтобы SLAM/AMCL меньше слепо доверяли одометрии
+    pose_covariance_diagonal: [0.05, 0.05, 0.1, 0.01, 0.01, 0.1]
+    twist_covariance_diagonal: [0.05, 0.05, 0.1, 0.01, 0.01, 0.1]
+    publish_rate: 50.0
+    odom_frame_id: odom
+    base_frame_id: base_link
+    enable_odom_tf: false   # Если hardware driver НЕ публикует odom/TF — смените на true
+    use_stamped_vel: true
+
+# Параметры для аппаратного интерфейса (проверьте enc_counts_per_rev и device)
+hardware_interface:
+  ros__parameters:
+    left_wheel_name: "left_wheel_joint"
+    right_wheel_name: "right_wheel_joint"
+    device: "/dev/ttyUSB0"
+    baud_rate: 57600
+    timeout: 1000
+    enc_counts_per_rev: 1920
+    loop_rate: 100

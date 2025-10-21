@@ -1,0 +1,38 @@
+[3.962s] Invoking command in '/home/tetramit/dev_ws/src/joy_tester': PYTHONPATH=/home/tetramit/dev_ws/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/tetramit/dev_ws/build/joy_tester/build install --record /home/tetramit/dev_ws/build/joy_tester/install.log --single-version-externally-managed install_data
+[5.264s] running egg_info
+[5.268s] creating ../../build/joy_tester/joy_tester.egg-info
+[5.270s] writing ../../build/joy_tester/joy_tester.egg-info/PKG-INFO
+[5.286s] writing dependency_links to ../../build/joy_tester/joy_tester.egg-info/dependency_links.txt
+[5.286s] writing entry points to ../../build/joy_tester/joy_tester.egg-info/entry_points.txt
+[5.286s] writing requirements to ../../build/joy_tester/joy_tester.egg-info/requires.txt
+[5.286s] writing top-level names to ../../build/joy_tester/joy_tester.egg-info/top_level.txt
+[5.286s] writing manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+[5.294s] reading manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+[5.294s] adding license file 'LICENSE'
+[5.295s] writing manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+[5.295s] running build
+[5.295s] running build_py
+[5.295s] creating /home/tetramit/dev_ws/build/joy_tester/build
+[5.296s] creating /home/tetramit/dev_ws/build/joy_tester/build/lib
+[5.297s] creating /home/tetramit/dev_ws/build/joy_tester/build/lib/joy_tester
+[5.297s] copying joy_tester/__init__.py -> /home/tetramit/dev_ws/build/joy_tester/build/lib/joy_tester
+[5.297s] copying joy_tester/test_joy.py -> /home/tetramit/dev_ws/build/joy_tester/build/lib/joy_tester
+[5.297s] running install
+[5.297s] running install_lib
+[5.304s] creating /home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester
+[5.304s] copying /home/tetramit/dev_ws/build/joy_tester/build/lib/joy_tester/__init__.py -> /home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester
+[5.304s] copying /home/tetramit/dev_ws/build/joy_tester/build/lib/joy_tester/test_joy.py -> /home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester
+[5.304s] byte-compiling /home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester/__init__.py to __init__.cpython-310.pyc
+[5.304s] byte-compiling /home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester/test_joy.py to test_joy.cpython-310.pyc
+[5.304s] running install_data
+[5.304s] creating /home/tetramit/dev_ws/install/joy_tester/share/ament_index
+[5.304s] creating /home/tetramit/dev_ws/install/joy_tester/share/ament_index/resource_index
+[5.304s] creating /home/tetramit/dev_ws/install/joy_tester/share/ament_index/resource_index/packages
+[5.304s] copying resource/joy_tester -> /home/tetramit/dev_ws/install/joy_tester/share/ament_index/resource_index/packages
+[5.304s] copying package.xml -> /home/tetramit/dev_ws/install/joy_tester/share/joy_tester
+[5.305s] running install_egg_info
+[5.305s] Copying ../../build/joy_tester/joy_tester.egg-info to /home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester-0.0.2-py3.10.egg-info
+[5.305s] running install_scripts
+[5.381s] Installing test_joy script to /home/tetramit/dev_ws/install/joy_tester/lib/joy_tester
+[5.382s] writing list of installed files to '/home/tetramit/dev_ws/build/joy_tester/install.log'
+[5.576s] Invoked command in '/home/tetramit/dev_ws/src/joy_tester' returned '0': PYTHONPATH=/home/tetramit/dev_ws/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/tetramit/dev_ws/build/joy_tester/build install --record /home/tetramit/dev_ws/build/joy_tester/install.log --single-version-externally-managed install_data

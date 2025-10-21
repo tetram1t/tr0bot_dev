@@ -1,0 +1,910 @@
+[0.111s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b805db8e170>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b805db8dbd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b805db8dbd0>>, mixin_verb=('build',))
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.278s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tetramit/dev_ws'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_before_ros2_control) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(backups_description) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build_backup) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build_backup) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build_backup) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install_backup) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install_backup) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install_backup) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log_backu) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log_backu) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log_backu) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_tester' with type 'ros.ament_python' and name 'joy_tester'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosapi' with type 'ros.ament_cmake' and name 'rosapi'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosapi_msgs' with type 'ros.ament_cmake' and name 'rosapi_msgs'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_library' with type 'ros.ament_cmake' and name 'rosbridge_library'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_msgs' with type 'ros.ament_cmake' and name 'rosbridge_msgs'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_server' with type 'ros.ament_cmake' and name 'rosbridge_server'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_suite' with type 'ros.ament_cmake' and name 'rosbridge_suite'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_test_msgs' with type 'ros.ament_cmake' and name 'rosbridge_test_msgs'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/tr0bot) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/tr0bot) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/tr0bot) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/tr0bot) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/tr0bot) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/tr0bot) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/tr0bot) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/tr0bot) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/tr0bot) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tr0bot' with type 'ros.ament_cmake' and name 'tr0bot'
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.335s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/tr0bot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.335s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/serial_motor_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.335s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/serial_motor_demo_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.335s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/rosbridge_test_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.335s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/rosbridge_suite' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.335s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/rosbridge_server' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/rosbridge_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/rosapi' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/rosbridge_library' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/rosapi_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tetramit/dev_ws/install/joy_tester' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tetramit/dev_ws/install/tr0bot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tetramit/dev_ws/install/serial_motor_demo_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tetramit/dev_ws/install/rosbridge_test_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tetramit/dev_ws/install/rosbridge_suite' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tetramit/dev_ws/install/rosbridge_server' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tetramit/dev_ws/install/rosbridge_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tetramit/dev_ws/install/rosapi' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tetramit/dev_ws/install/rosbridge_library' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tetramit/dev_ws/install/rosapi_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/tetramit/dev_ws/install
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 439 installed packages in /opt/ros/humble
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'joy_tester' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/joy_tester', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/joy_tester', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/joy_tester', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'rosapi_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/rosapi_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/rosapi_msgs', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/rosbridge_suite/rosapi_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/rosbridge_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/rosbridge_msgs', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_test_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/rosbridge_test_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/rosbridge_test_msgs', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_test_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'tr0bot' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'tr0bot' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'tr0bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'tr0bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'tr0bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'tr0bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'tr0bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'tr0bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'tr0bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'tr0bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/tr0bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/tr0bot', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/tr0bot', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/rosbridge_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/rosbridge_library', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_library', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'rosapi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/rosapi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/rosapi', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/rosbridge_suite/rosapi', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/rosbridge_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/rosbridge_server', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_server', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_suite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tetramit/dev_ws/build/rosbridge_suite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tetramit/dev_ws/install/rosbridge_suite', 'merge_install': False, 'path': '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_suite', 'symlink_install': False, 'test_result_base': None}
+[0.402s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.403s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_test_msgs' with build type 'ament_cmake'
+[0.403s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_test_msgs'
+[0.406s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosapi_msgs' with build type 'ament_cmake'
+[0.417s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosapi_msgs'
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_msgs' with build type 'ament_cmake'
+[0.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_msgs'
+[0.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[0.429s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[0.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_test_msgs -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_test_msgs
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosapi_msgs
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_msgs
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/serial_motor_demo_msgs
+[3.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_msgs
+[3.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_msgs -- -j4 -l4
+[3.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/serial_motor_demo_msgs
+[3.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[5.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosapi_msgs
+[5.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosapi_msgs -- -j4 -l4
+[6.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_test_msgs -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_test_msgs
+[6.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_test_msgs -- -j4 -l4
+[15.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_msgs -- -j4 -l4
+[15.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_msgs
+[15.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[15.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_msgs
+[15.393s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs' for CMake module files
+[15.394s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs' for CMake config files
+[15.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[15.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[15.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[15.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[15.404s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/lib'
+[15.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[15.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[15.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[15.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[15.412s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/bin'
+[15.413s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[15.413s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/lib/python3.10/site-packages'
+[15.413s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/bin'
+[15.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[15.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[15.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[15.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[15.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[15.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[15.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[15.431s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs' for CMake module files
+[15.432s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs' for CMake config files
+[15.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[15.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[15.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[15.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[15.457s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/lib'
+[15.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[15.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[15.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[15.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[15.463s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/bin'
+[15.463s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[15.467s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/lib/python3.10/site-packages'
+[15.467s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_msgs/bin'
+[15.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[15.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[15.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[15.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[15.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[15.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[15.481s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tetramit/dev_ws/src/joy_tester' with build type 'ament_python'
+[15.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'ament_prefix_path')
+[15.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.ps1'
+[15.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.dsv'
+[15.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.sh'
+[15.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.630s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tetramit/dev_ws/src/joy_tester'
+[16.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[17.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/serial_motor_demo_msgs
+[18.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[18.443s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[18.444s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[18.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[18.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[18.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[18.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/serial_motor_demo_msgs
+[18.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[18.471s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib'
+[18.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[18.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[18.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[18.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[18.501s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/bin'
+[18.501s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[18.501s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[18.515s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/bin'
+[18.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[18.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[18.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[18.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[18.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[18.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[18.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[18.521s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[18.522s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[18.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[18.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[18.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[18.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[18.549s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib'
+[18.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[18.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[18.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[18.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[18.557s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/bin'
+[18.557s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[18.559s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[18.560s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/bin'
+[18.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[18.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[18.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[18.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[18.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[18.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[18.568s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tetramit/dev_ws/src/tr0bot' with build type 'ament_cmake'
+[18.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tetramit/dev_ws/src/tr0bot'
+[18.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/tr0bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/tr0bot -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/tr0bot
+[19.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/src/joy_tester': PYTHONPATH=/home/tetramit/dev_ws/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/tetramit/dev_ws/build/joy_tester/build install --record /home/tetramit/dev_ws/build/joy_tester/install.log --single-version-externally-managed install_data
+[21.025s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/joy_tester' for CMake module files
+[21.025s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/joy_tester' for CMake config files
+[21.026s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/joy_tester/lib'
+[21.036s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/joy_tester/bin'
+[21.037s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/joy_tester/lib/pkgconfig/joy_tester.pc'
+[21.037s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages'
+[21.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath')
+[21.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/hook/pythonpath.ps1'
+[21.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/hook/pythonpath.dsv'
+[21.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/hook/pythonpath.sh'
+[21.042s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/joy_tester/bin'
+[21.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_tester)
+[21.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/package.ps1'
+[21.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/src/joy_tester' returned '0': PYTHONPATH=/home/tetramit/dev_ws/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tetramit/dev_ws/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/tetramit/dev_ws/build/joy_tester/build install --record /home/tetramit/dev_ws/build/joy_tester/install.log --single-version-externally-managed install_data
+[21.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/package.dsv'
+[21.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/package.sh'
+[21.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/package.bash'
+[21.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/joy_tester/share/joy_tester/package.zsh'
+[21.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/joy_tester/share/colcon-core/packages/joy_tester)
+[21.091s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[21.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[21.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[21.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[21.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[21.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.674s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo'
+[22.675s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/tr0bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/tetramit/dev_ws/src/tr0bot -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/tr0bot
+[22.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/tr0bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/tr0bot -- -j4 -l4
+[22.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/tr0bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/tr0bot -- -j4 -l4
+[22.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/tr0bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/tr0bot
+[22.934s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tr0bot)
+[22.935s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot' for CMake module files
+[22.936s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot' for CMake config files
+[22.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('tr0bot', 'cmake_prefix_path')
+[22.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/hook/cmake_prefix_path.ps1'
+[22.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/hook/cmake_prefix_path.dsv'
+[22.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/hook/cmake_prefix_path.sh'
+[22.944s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot/bin'
+[22.944s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot/lib/pkgconfig/tr0bot.pc'
+[22.944s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot/lib/python3.10/site-packages'
+[22.945s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot/bin'
+[22.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/tr0bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/tr0bot
+[22.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.ps1'
+[22.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.dsv'
+[22.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.sh'
+[22.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.bash'
+[22.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.zsh'
+[22.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/tr0bot/share/colcon-core/packages/tr0bot)
+[22.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tr0bot)
+[22.963s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot' for CMake module files
+[22.964s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot' for CMake config files
+[22.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('tr0bot', 'cmake_prefix_path')
+[22.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/hook/cmake_prefix_path.ps1'
+[22.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/hook/cmake_prefix_path.dsv'
+[22.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/hook/cmake_prefix_path.sh'
+[22.984s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot/bin'
+[22.984s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot/lib/pkgconfig/tr0bot.pc'
+[22.984s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot/lib/python3.10/site-packages'
+[22.995s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/tr0bot/bin'
+[22.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.ps1'
+[22.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.dsv'
+[23.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.sh'
+[23.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.bash'
+[23.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/tr0bot/share/tr0bot/package.zsh'
+[23.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/tr0bot/share/colcon-core/packages/tr0bot)
+[24.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs PYTHONPATH=/home/tetramit/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/tetramit/dev_ws/build/serial_motor_demo/build install --record /home/tetramit/dev_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[26.647s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo' for CMake module files
+[26.650s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo' for CMake config files
+[26.651s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo/lib'
+[26.651s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo/bin'
+[26.651s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[26.651s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages'
+[26.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[26.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[26.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/src/serial_motor_demo/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs PYTHONPATH=/home/tetramit/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tetramit/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/tetramit/dev_ws/build/serial_motor_demo/build install --record /home/tetramit/dev_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[26.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[26.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[26.664s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/serial_motor_demo/bin'
+[26.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[26.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[26.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[26.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[26.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[26.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[26.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[106.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosapi_msgs -- -j4 -l4
+[106.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosapi_msgs
+[107.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi_msgs)
+[107.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosapi_msgs
+[107.272s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs' for CMake module files
+[107.274s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs' for CMake config files
+[107.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'cmake_prefix_path')
+[107.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.ps1'
+[107.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.dsv'
+[107.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.sh'
+[107.281s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/lib'
+[107.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'ld_library_path_lib')
+[107.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.ps1'
+[107.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.dsv'
+[107.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.sh'
+[107.284s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/bin'
+[107.284s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/lib/pkgconfig/rosapi_msgs.pc'
+[107.285s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/lib/python3.10/site-packages'
+[107.285s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/bin'
+[107.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.ps1'
+[107.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.dsv'
+[107.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.sh'
+[107.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.bash'
+[107.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.zsh'
+[107.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosapi_msgs/share/colcon-core/packages/rosapi_msgs)
+[107.292s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi_msgs)
+[107.292s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs' for CMake module files
+[107.293s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs' for CMake config files
+[107.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'cmake_prefix_path')
+[107.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.ps1'
+[107.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.dsv'
+[107.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.sh'
+[107.296s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/lib'
+[107.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'ld_library_path_lib')
+[107.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.ps1'
+[107.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.dsv'
+[107.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.sh'
+[107.298s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/bin'
+[107.298s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/lib/pkgconfig/rosapi_msgs.pc'
+[107.299s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/lib/python3.10/site-packages'
+[107.299s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi_msgs/bin'
+[107.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.ps1'
+[107.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.dsv'
+[107.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.sh'
+[107.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.bash'
+[107.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.zsh'
+[107.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosapi_msgs/share/colcon-core/packages/rosapi_msgs)
+[139.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_test_msgs -- -j4 -l4
+[139.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_test_msgs
+[140.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_test_msgs)
+[140.295s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs' for CMake module files
+[140.295s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs' for CMake config files
+[140.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'cmake_prefix_path')
+[140.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.ps1'
+[140.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.dsv'
+[140.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.sh'
+[140.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_test_msgs
+[140.298s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib'
+[140.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'ld_library_path_lib')
+[140.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.ps1'
+[140.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.dsv'
+[140.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.sh'
+[140.300s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/bin'
+[140.300s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib/pkgconfig/rosbridge_test_msgs.pc'
+[140.300s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib/python3.10/site-packages'
+[140.300s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/bin'
+[140.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.ps1'
+[140.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv'
+[140.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.sh'
+[140.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.bash'
+[140.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.zsh'
+[140.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/colcon-core/packages/rosbridge_test_msgs)
+[140.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_test_msgs)
+[140.304s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs' for CMake module files
+[140.305s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs' for CMake config files
+[140.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'cmake_prefix_path')
+[140.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.ps1'
+[140.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.dsv'
+[140.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.sh'
+[140.308s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib'
+[140.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'ld_library_path_lib')
+[140.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.ps1'
+[140.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.dsv'
+[140.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.sh'
+[140.309s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/bin'
+[140.309s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib/pkgconfig/rosbridge_test_msgs.pc'
+[140.310s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib/python3.10/site-packages'
+[140.310s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_test_msgs/bin'
+[140.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.ps1'
+[140.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv'
+[140.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.sh'
+[140.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.bash'
+[140.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.zsh'
+[140.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_test_msgs/share/colcon-core/packages/rosbridge_test_msgs)
+[140.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_library' with build type 'ament_cmake'
+[140.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_library'
+[140.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[140.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[140.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_library': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_library -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_library
+[142.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_library' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_library -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_library
+[142.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_library': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_library -- -j4 -l4
+[142.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_library' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_library -- -j4 -l4
+[142.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_library': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_library
+[143.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_library)
+[143.116s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library' for CMake module files
+[143.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_library' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_library
+[143.118s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library' for CMake config files
+[143.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'cmake_prefix_path')
+[143.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.ps1'
+[143.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.dsv'
+[143.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.sh'
+[143.120s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library/bin'
+[143.120s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library/lib/pkgconfig/rosbridge_library.pc'
+[143.120s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library/lib/python3.10/site-packages'
+[143.121s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library/bin'
+[143.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.ps1'
+[143.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.dsv'
+[143.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.sh'
+[143.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.bash'
+[143.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.zsh'
+[143.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_library/share/colcon-core/packages/rosbridge_library)
+[143.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_library)
+[143.124s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library' for CMake module files
+[143.124s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library' for CMake config files
+[143.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'cmake_prefix_path')
+[143.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.ps1'
+[143.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.dsv'
+[143.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.sh'
+[143.127s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library/bin'
+[143.127s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library/lib/pkgconfig/rosbridge_library.pc'
+[143.127s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library/lib/python3.10/site-packages'
+[143.127s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_library/bin'
+[143.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.ps1'
+[143.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.dsv'
+[143.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.sh'
+[143.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.bash'
+[143.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_library/share/rosbridge_library/package.zsh'
+[143.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_library/share/colcon-core/packages/rosbridge_library)
+[143.130s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosapi' with build type 'ament_cmake'
+[143.130s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosapi'
+[143.131s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[143.131s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[143.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosapi': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosapi -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosapi
+[144.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosapi' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosapi -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosapi
+[144.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosapi': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosapi -- -j4 -l4
+[145.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosapi' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosapi -- -j4 -l4
+[145.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosapi': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosapi
+[145.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi)
+[145.252s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi' for CMake module files
+[145.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosapi' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosapi
+[145.253s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi' for CMake config files
+[145.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'cmake_prefix_path')
+[145.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.ps1'
+[145.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.dsv'
+[145.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.sh'
+[145.254s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/lib'
+[145.254s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/bin'
+[145.254s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/lib/pkgconfig/rosapi.pc'
+[145.255s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/lib/python3.10/site-packages'
+[145.255s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/bin'
+[145.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.ps1'
+[145.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.dsv'
+[145.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.sh'
+[145.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.bash'
+[145.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.zsh'
+[145.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosapi/share/colcon-core/packages/rosapi)
+[145.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi)
+[145.257s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi' for CMake module files
+[145.258s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi' for CMake config files
+[145.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'cmake_prefix_path')
+[145.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.ps1'
+[145.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.dsv'
+[145.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.sh'
+[145.259s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/lib'
+[145.259s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/bin'
+[145.259s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/lib/pkgconfig/rosapi.pc'
+[145.259s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/lib/python3.10/site-packages'
+[145.260s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosapi/bin'
+[145.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.ps1'
+[145.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.dsv'
+[145.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.sh'
+[145.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.bash'
+[145.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosapi/share/rosapi/package.zsh'
+[145.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosapi/share/colcon-core/packages/rosapi)
+[145.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_server' with build type 'ament_cmake'
+[145.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_server'
+[145.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[145.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[145.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_server': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_server -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_server
+[146.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_server' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_server -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_server
+[146.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_server': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_server -- -j4 -l4
+[146.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_server' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_server -- -j4 -l4
+[146.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_server': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_server
+[146.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_server)
+[146.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_server' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_server
+[146.785s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server' for CMake module files
+[146.786s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server' for CMake config files
+[146.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'cmake_prefix_path')
+[146.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.ps1'
+[146.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.dsv'
+[146.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.sh'
+[146.787s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/lib'
+[146.787s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/bin'
+[146.787s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/lib/pkgconfig/rosbridge_server.pc'
+[146.788s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/lib/python3.10/site-packages'
+[146.788s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/bin'
+[146.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.ps1'
+[146.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.dsv'
+[146.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.sh'
+[146.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.bash'
+[146.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.zsh'
+[146.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_server/share/colcon-core/packages/rosbridge_server)
+[146.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_server)
+[146.790s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server' for CMake module files
+[146.791s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server' for CMake config files
+[146.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'cmake_prefix_path')
+[146.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.ps1'
+[146.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.dsv'
+[146.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.sh'
+[146.792s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/lib'
+[146.792s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/bin'
+[146.792s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/lib/pkgconfig/rosbridge_server.pc'
+[146.792s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/lib/python3.10/site-packages'
+[146.793s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_server/bin'
+[146.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.ps1'
+[146.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.dsv'
+[146.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.sh'
+[146.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.bash'
+[146.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_server/share/rosbridge_server/package.zsh'
+[146.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_server/share/colcon-core/packages/rosbridge_server)
+[146.795s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_suite' with build type 'ament_cmake'
+[146.795s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_suite'
+[146.796s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[146.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[146.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_suite': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_suite -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_suite
+[147.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_suite' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tetramit/dev_ws/src/rosbridge_suite/rosbridge_suite -DCMAKE_INSTALL_PREFIX=/home/tetramit/dev_ws/install/rosbridge_suite
+[147.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_suite': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_suite -- -j4 -l4
+[147.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_suite' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tetramit/dev_ws/build/rosbridge_suite -- -j4 -l4
+[147.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tetramit/dev_ws/build/rosbridge_suite': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_suite
+[147.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_suite)
+[147.202s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite' for CMake module files
+[147.202s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite' for CMake config files
+[147.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_suite', 'cmake_prefix_path')
+[147.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.ps1'
+[147.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.dsv'
+[147.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.sh'
+[147.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tetramit/dev_ws/build/rosbridge_suite' returned '0': CMAKE_PREFIX_PATH=/home/tetramit/dev_ws/install/rosbridge_server:/home/tetramit/dev_ws/install/rosapi:/home/tetramit/dev_ws/install/rosbridge_library:/home/tetramit/dev_ws/install/rosbridge_test_msgs:/home/tetramit/dev_ws/install/rosbridge_msgs:/home/tetramit/dev_ws/install/rosapi_msgs:/home/tetramit/dev_ws/install/tr0bot:/home/tetramit/dev_ws/install/serial_motor_demo_msgs:/home/tetramit/dev_ws/install/rosbridge_suite:/home/tetramit/dev_ws/install/serial_motor_demo:/home/tetramit/dev_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/tetramit/dev_ws/install/rosbridge_test_msgs/lib:/home/tetramit/dev_ws/install/rosbridge_msgs/lib:/home/tetramit/dev_ws/install/rosapi_msgs/lib:/home/tetramit/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tetramit/dev_ws/build/rosbridge_suite
+[147.204s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite/bin'
+[147.204s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite/lib/pkgconfig/rosbridge_suite.pc'
+[147.204s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite/lib/python3.10/site-packages'
+[147.204s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite/bin'
+[147.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.ps1'
+[147.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv'
+[147.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.sh'
+[147.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.bash'
+[147.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.zsh'
+[147.206s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_suite/share/colcon-core/packages/rosbridge_suite)
+[147.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_suite)
+[147.207s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite' for CMake module files
+[147.207s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite' for CMake config files
+[147.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_suite', 'cmake_prefix_path')
+[147.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.ps1'
+[147.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.dsv'
+[147.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.sh'
+[147.209s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite/bin'
+[147.209s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite/lib/pkgconfig/rosbridge_suite.pc'
+[147.209s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite/lib/python3.10/site-packages'
+[147.209s] Level 1:colcon.colcon_core.environment:checking '/home/tetramit/dev_ws/install/rosbridge_suite/bin'
+[147.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.ps1'
+[147.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv'
+[147.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.sh'
+[147.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.bash'
+[147.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/tetramit/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.zsh'
+[147.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tetramit/dev_ws/install/rosbridge_suite/share/colcon-core/packages/rosbridge_suite)
+[147.212s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[147.212s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[147.212s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[147.212s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[147.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[147.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[147.229s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[147.305s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[147.305s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tetramit/dev_ws/install/local_setup.ps1'
+[147.308s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tetramit/dev_ws/install/_local_setup_util_ps1.py'
+[147.312s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tetramit/dev_ws/install/setup.ps1'
+[147.316s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tetramit/dev_ws/install/local_setup.sh'
+[147.318s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tetramit/dev_ws/install/_local_setup_util_sh.py'
+[147.319s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tetramit/dev_ws/install/setup.sh'
+[147.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tetramit/dev_ws/install/local_setup.bash'
+[147.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tetramit/dev_ws/install/setup.bash'
+[147.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tetramit/dev_ws/install/local_setup.zsh'
+[147.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tetramit/dev_ws/install/setup.zsh'
